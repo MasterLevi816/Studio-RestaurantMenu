@@ -1,7 +1,6 @@
 package org.example.restaurant;
 
 import java.util.Date;
-import java.util.HashMap;
 import java.util.ArrayList;
 
 public class Menu {
@@ -15,6 +14,7 @@ public class Menu {
         this.items = items;
         this.dateUpdated = dateUpdated;
     }
+
 // setters:
     public void setItems(ArrayList<MenuItem> items) {
         this.items = items;

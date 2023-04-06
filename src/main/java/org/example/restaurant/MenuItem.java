@@ -1,6 +1,5 @@
 package org.example.restaurant;
 
-import java.util.ArrayList;
 public class MenuItem {
 // all private= put name, description, category, price, is new
 
@@ -39,6 +38,27 @@ public class MenuItem {
         this.category = category;
     }
 
+    //getters
+
+    public String getCategory() {
+        return category;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public Boolean getNewItem() {
+        return NewItem;
+    }
 }
 
 //MenuItem ("food", "pizza", "cheesy goodness", 50, true);
